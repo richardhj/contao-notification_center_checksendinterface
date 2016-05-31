@@ -1,0 +1,28 @@
+{
+	"name": "richardhj/contao-notification_center_checksendinterface",
+	"description": "An interface for the notification_center extension for Contao Open Source CMS that includes a function to check if a message can be send.",
+	"keywords": ["contao", "notification", "center", "interface"],
+	"type": "contao-module",
+	"license": "LGPL-3.0+",
+	"authors": [
+		{
+			"name": "Richard Henkenjohann",
+			"email": "richardhenkenjohann@googlemail.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/richardhj/contao-notification_center_checksendinterface/issues",
+		"source": "https://github.com/richardhj/contao-notification_center_checksendinterface"
+	},
+	"require": {
+		"php": ">=5.3",
+		"contao/core": ">=3.1",
+		"terminal42/notification_center": "~1.3"
+	},
+	"autoload": {
+		"psr-0": {
+			"NotificationCenter\\": "src/"
+		}
+	}
+}

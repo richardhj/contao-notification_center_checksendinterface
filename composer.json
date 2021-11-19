@@ -16,7 +16,7 @@
 		"source": "https://github.com/richardhj/contao-notification_center_checksendinterface"
 	},
 	"require": {
-		"php": "^5.3 || ^7.0",
+		"php": ">=5.3",
 		"contao/core-bundle": "^3.1 || ^4.3",
 		"contao-community-alliance/composer-plugin": "~2.4 || ~3.0",
 		"terminal42/notification_center": "^1.3"
